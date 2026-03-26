@@ -15,8 +15,7 @@ STATIC_RESPONSES = {
 }
 
 #keywords we can use to classify intent, if these are extracted by keyword_classify, intent is found since its deterministic.
-#an edge case here would be if the user asks multiple questions at once and we identify >1 intent; more in the doc on how we may 
-#want to handle this
+#an edge case here would be if the user asks multiple questions at once and we identify >1 intent, we have not configured the system to handle this
 KEYWORD_RULES = [
     {
         "keywords": ["charged twice", "double charged", "overcharged",
